@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body { overflow-x: hidden; }
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+  #headertop {
+    background: #8E2659;
+  }
+  
+  
+  #search, #cart {
+    margin-top: 20px;
+  }
+  
+  #search input[type=text] {
+    width: 100%;
+  }
+  
+  #filtersubmit {
+    position: relative;
+    z-index: 1;
+    left: -25px;
+    top: 1px;
+    color: #7B7B7B;
+    cursor:pointer;
+    width: 0;
+  }
+  
+  div#shoppingcart, nav#signin {
+    float: right;
+  }
+  
+  ul.toggle_menu {
+    list-style: none;
+    display: inherit;
+  }
+  
+  nav .toggle_menu li{
+    margin-right: 10px;
+  }
+  
+  nav .toggle_menu li:first-child {
+    border-right: thin white solid;
+    padding-right: 10px;
+  }
+  
+  li.nav-item {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  ul.nav.navbar-nav {
+    display: inline;
+    background: #fafafa;
+  }
+  
+  div#cart-wrapper {
+    max-width: 220px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div#slider-container {
+    padding: 30px;
+    background: #8E2659;
+    /* display: inline-block; */
+    box-sizing: border-box;
+}
+
+.banner-box {
+    max-width: 272px;
+    margin: 0 auto 30px;
+    padding: 30px;
+    box-sizing: content-box;
+    background: #8E2659;
+}
+
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
